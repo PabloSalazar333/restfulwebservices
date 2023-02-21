@@ -32,6 +32,10 @@ public class User {
         this.birthDate = birthDate;
     }
 
+    protected User(){
+
+    }
+
     public User(Integer id, String name, Date birthDate) {
         this.id = id;
         this.name = name;
